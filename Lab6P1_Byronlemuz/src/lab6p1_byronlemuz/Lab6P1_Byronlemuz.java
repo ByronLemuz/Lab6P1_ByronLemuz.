@@ -40,12 +40,12 @@ public class Lab6P1_Byronlemuz {
                         }
                         System.out.println("Array generado: ");
                         imprimirArray(arreglo);
-                        System.out.println("Ingrese el numero de posiciones a rotar: ");
+                        System.out.println("\n Ingrese el numero de posiciones a rotar: ");
                         int rotaciones = bicho.nextInt();
                         rotamosArray(arreglo, rotaciones);
-                        System.out.println("Array roatado: ");
+                        System.out.println("\n Array rotado: ");
                         imprimirArray(arreglo);
-                        System.out.println("Desea volver a generar otro array?: ");
+                        System.out.println("\n Desea volver a generar otro array?: ");
                         continuar = bicho.nextInt();
 
                     }
